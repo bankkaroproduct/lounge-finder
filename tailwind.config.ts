@@ -19,6 +19,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				/* LoungeHopper brand tokens */
+				'lh-navy':        'hsl(var(--lh-navy))',
+				'lh-navy-mid':    'hsl(var(--lh-navy-mid))',
+				'lh-amber':       'hsl(var(--lh-amber))',
+				'lh-amber-light': 'hsl(var(--lh-amber-light))',
+				'lh-amber-pale':  'hsl(var(--lh-amber-pale))',
+				'lh-success':     'hsl(var(--lh-success))',
+				/* shadcn semantic tokens */
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
